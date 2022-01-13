@@ -1,0 +1,66 @@
+.align {
+  display: grid;
+  grid-template-columns: 50fr 50fr;
+  grid-template-rows: 30fr 30fr;
+  justify-items: center;
+  margin: 50px 150px;
+}
+
+.title {
+  margin: 10px;
+  letter-spacing: 0.1em;
+}
+
+.title > h1 {
+  font-family: var(--font-family-noto);
+  padding: 18px 0px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.price-contact {
+  display: flex;
+  margin-top: 100px;
+}
+
+.title > h3 {
+  font-family: var(--font-family-lato);
+}
+
+.spacing {
+  margin: 20px;
+  font-family: var(--font-family-noto);
+}
+
+button {
+  margin: 40px;
+  padding: 10px;
+  background-color: rgb(217, 223, 134);
+  border: dimgray;
+  border-radius: 5px;
+}
+
+.img-hoops {
+  width: 400px;
+}
+
+.img-hoops-papa {
+  width: 200px;
+}
+
+@media (max-width: 700px) {
+  .align {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 50px 10px;
+  }
+
+  .img-hoops {
+    width: 350px;
+  }
+
+  .img-hoops-papa {
+    width: 350px;
+  }
+}

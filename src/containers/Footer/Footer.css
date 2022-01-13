@@ -1,0 +1,31 @@
+.footer-wrapper {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0px 0px;
+}
+
+.footer-wrapper > h1 {
+    font-family: var(--font-family-abz);
+}
+
+.footer-wrapper > a {
+    font-family: var(--font-family-abz);
+    text-decoration: none;
+    font-size: 28px;
+    margin: 2px 10px;
+}
+
+.gradient__text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.footer-bar {
+    background-color:slategray;
+    font-family: var(--font-family-abz);
+    text-align: center;
+    padding: 5px;
+}
